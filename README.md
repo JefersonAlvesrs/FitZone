@@ -1,28 +1,29 @@
 # FitZone ⚡
 
-**Site institucional responsivo de uma academia fictícia**, desenvolvido com HTML, CSS e JavaScript. Apresenta cinco páginas interligadas, com identidade visual em branco, grafite e verde-limão.
+**Site institucional responsivo de uma academia fictícia**, desenvolvido com HTML, CSS e JavaScript. O projeto apresenta cinco páginas interligadas, com identidade visual moderna em branco, grafite e verde-limão.
 
-## 🔗 Demonstração
+## 🔗 Acessar o projeto
 
-O endereço do **GitHub Pages** será incluído após a primeira publicação.
+**[Ver demonstração online (GitHub Pages)](https://jefersonalvesrs.github.io/FitZone/)**
 
 ## ✨ Funcionalidades
 
-- Página inicial com apresentação e chamadas para ação
+- Página inicial com apresentação da academia e chamadas para ação
 - Seis modalidades com fotografias armazenadas localmente
 - Três planos demonstrativos com direcionamento para contato
 - Grade semanal de aulas e horários de funcionamento
 - Formulário com validação e confirmação local, sem envio de informações
 - Menu responsivo para dispositivos móveis
-- Navegação entre cinco páginas e crédito do desenvolvedor no rodapé
+- Navegação entre cinco páginas interligadas
+- Crédito do desenvolvedor no rodapé
 
 ## 🛠️ Tecnologias
 
 - **HTML5:** estrutura semântica e navegação multipágina
-- **CSS3:** Grid, Flexbox e media queries
-- **JavaScript:** menu mobile, seleção de planos e interação com formulário
-- **Imagens locais:** fotografias na pasta `assets/images/`
-- **Google Fonts:** tipografia carregada externamente, com fontes alternativas
+- **CSS3:** layouts responsivos com Grid, Flexbox e media queries
+- **JavaScript:** menu mobile, seleção de planos e interações do formulário
+- **Imagens locais:** fotografias armazenadas em `assets/images/`
+- **Google Fonts:** tipografia externa com fontes alternativas
 
 ## 📸 Capturas de tela
 
@@ -46,19 +47,20 @@ O endereço do **GitHub Pages** será incluído após a primeira publicação.
 
 ## 🚀 Executar localmente
 
-1. Clone este repositório ou baixe o ZIP.
+1. Clone o repositório:
+   `git clone https://github.com/JefersonAlvesrs/FitZone.git`
 2. Abra a pasta `FitZone` no VS Code.
-3. Abra `index.html` no navegador ou utilize a extensão Live Server.
+3. Abra `index.html` no navegador ou utilize a extensão **Live Server**.
 
 Não é necessário instalar dependências nem configurar backend.
 
-## 📁 Estrutura
+## 📁 Estrutura do projeto
 
 ```text
 FitZone/
 ├── assets/
 │   └── images/          # Fotografias locais
-├── screenshots/         # Capturas reais para README e portfólio
+├── screenshots/         # Capturas para README e portfólio
 ├── index.html
 ├── modalidades.html
 ├── planos.html
@@ -71,9 +73,11 @@ FitZone/
 
 ## ℹ️ Observações
 
-Este é um **projeto fictício para portfólio**. Valores, planos, horários e serviços são ilustrativos. O formulário não envia mensagens e não realiza contratações.
+Este é um **projeto fictício desenvolvido para portfólio**. Valores, planos, horários e serviços são ilustrativos.
 
-As fotografias foram fornecidas para a montagem do projeto; **confirme as licenças de uso antes da publicação pública**.
+O formulário demonstra validação e interação no navegador, sem enviar mensagens, armazenar dados em servidores ou realizar contratações.
+
+As fotografias foram fornecidas para a montagem do projeto. É necessário confirmar as respectivas licenças de uso para publicação pública.
 
 ## 👨‍💻 Autor
 
