@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="FitZone: academia fict&iacute;cia com modalidades, planos, hor&aacute;rios e contato. Projeto demonstrativo de frontend." name="description"/>
+  <meta content="#f7f8f3" name="theme-color"/>
+  <title>
+   Contato | FitZone
+  </title>
+  <link href="styles.css" rel="stylesheet"/>
+  <script defer="" src="script.js">
+  </script>
+ </head>
+ <body>
+  <a class="skip-link" href="#conteudo">
+   Pular para o conte&uacute;do
+  </a>
+  <header class="site-header">
+   <div class="container header-inner">
+    <a aria-label="FitZone - In&iacute;cio" class="logo" href="index.html">
+     <span class="logo-mark">
+      F
+     </span>
+     fit
+     <span class="logo-accent">
+      zone
+     </span>
+     <span class="logo-dot">
+      .
+     </span>
+    </a>
+    <button aria-controls="primary-nav" aria-expanded="false" aria-label="Abrir menu" class="menu-toggle">
+     <span>
+     </span>
+     <span>
+     </span>
+     <span>
+     </span>
+    </button>
+    <nav aria-label="Navega&ccedil;&atilde;o principal" class="nav" id="primary-nav">
+     <a href="index.html">
+      In&iacute;cio
+     </a>
+     <a href="modalidades.html">
+      Modalidades
+     </a>
+     <a href="planos.html">
+      Planos
+     </a>
+     <a href="horarios.html">
+      Hor&aacute;rios
+     </a>
+     <a aria-current="page" href="contato.html">
+      Contato
+     </a>
+     <a class="nav-cta" href="planos.html">
+      Quero treinar
+      <span aria-hidden="true">
+       &nearrow;
+      </span>
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main id="conteudo">
+   <section class="page-hero container">
+    <span class="eyebrow">
+     FALE COM A GENTE
+    </span>
+    <h1>
+     Bora come&ccedil;ar
+     <em>
+      juntos?
+     </em>
+    </h1>
+    <p>
+     Tem d&uacute;vidas sobre modalidades ou planos? Envie uma mensagem de demonstra&ccedil;&atilde;o.
+    </p>
+   </section>
+   <section class="container contact-grid section compact-top">
+    <div class="contact-info">
+     <div class="contact-card">
+      <span class="eyebrow">
+       VENHA CONHECER
+      </span>
+      <h2>
+       O seu lugar &eacute; aqui.
+      </h2>
+      <p>
+       Este &eacute; um site fict&iacute;cio criado para portf&oacute;lio. N&atilde;o existe uma unidade f&iacute;sica nem atendimento real.
+      </p>
+      <div class="contact-detail">
+       <strong>
+        Hor&aacute;rio de atendimento
+       </strong>
+       <span>
+        Segunda a sexta, 06h &agrave;s 22h
+        <br/>
+        S&aacute;bado, 08h &agrave;s 16h
+       </span>
+      </div>
+      <div class="contact-detail">
+       <strong>
+        Modalidades
+       </strong>
+       <span>
+        Muscula&ccedil;&atilde;o, funcional, bike indoor e mais.
+       </span>
+      </div>
+      <img alt="Fotografia de comunidade fitness" loading="lazy" src="assets/images/reception.jpg"/>
+     </div>
+    </div>
+    <form class="contact-form" id="contact-form" novalidate="">
+     <span class="eyebrow">
+      MENSAGEM DEMONSTRATIVA
+     </span>
+     <h2>
+      Fale com a FitZone
+     </h2>
+     <p>
+      Preencha os campos para visualizar uma confirma&ccedil;&atilde;o local. Nenhuma mensagem ser&aacute; enviada.
+     </p>
+     <label for="name">
+      Seu nome
+     </label>
+     <input autocomplete="name" id="name" minlength="2" name="name" placeholder="Como podemos te chamar?" required=""/>
+     <label for="email">
+      Seu e-mail
+     </label>
+     <input autocomplete="email" id="email" name="email" placeholder="voce@exemplo.com" required="" type="email"/>
+     <label for="plan">
+      Tenho interesse em
+     </label>
+     <select id="plan" name="plan">
+      <option value="">
+       Selecione uma op&ccedil;&atilde;o
+      </option>
+      <option value="start">
+       Plano Start
+      </option>
+      <option value="move">
+       Plano Move
+      </option>
+      <option value="unlimited">
+       Plano Unlimited
+      </option>
+      <option value="modalidades">
+       Modalidades
+      </option>
+      <option value="outro">
+       Outras d&uacute;vidas
+      </option>
+     </select>
+     <label for="message">
+      Sua mensagem
+     </label>
+     <textarea id="message" minlength="5" name="message" placeholder="Conte um pouco do que procura..." required="" rows="5"></textarea>
+     <button class="btn btn-primary" type="submit">
+      Enviar mensagem de teste &nearrow;
+     </button>
+     <p aria-live="polite" class="form-feedback" id="form-feedback" role="status">
+     </p>
+    </form>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="container footer-main">
+    <div>
+     <a class="logo footer-logo" href="index.html">
+      <span class="logo-mark">
+       F
+      </span>
+      fit
+      <span class="logo-accent">
+       zone
+      </span>
+      <span class="logo-dot">
+       .
+      </span>
+     </a>
+     <p>
+      Movimento &eacute; para todo mundo. Sua evolu&ccedil;&atilde;o come&ccedil;a aqui.
+     </p>
+    </div>
+    <div>
+     <strong>
+      Explore
+     </strong>
+     <a href="modalidades.html">
+      Modalidades
+     </a>
+     <a href="planos.html">
+      Planos
+     </a>
+     <a href="horarios.html">
+      Hor&aacute;rios
+     </a>
+    </div>
+    <div>
+     <strong>
+      Vamos conversar?
+     </strong>
+     <a href="contato.html">
+      Entre em contato
+     </a>
+     <span>
+      Seg&ndash;Sex: 06h &agrave;s 22h
+     </span>
+     <span>
+      S&aacute;bado: 08h &agrave;s 16h
+     </span>
+    </div>
+   </div>
+   <div class="container footer-bottom">
+    <small>
+     &copy; 2026 FitZone. Projeto fict&iacute;cio para portf&oacute;lio.
+    </small>
+    <a href="https://github.com/JefersonAlvesrs" rel="noopener noreferrer" target="_blank">
+     Desenvolvido por Jeferson Alves &nearrow;
+    </a>
+   </div>
+  </footer>
+ </body>
+</html>
